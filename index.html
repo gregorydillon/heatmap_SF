@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Leaflet SODA API Demo</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+
+</head>
+<body>
+
+  <div id="map"></div>
+  <div id="infoBox" class="box">
+    <div id="infoBoxTitle">311 Requests Since <span id='startDate'></span>
+    </div>
+
+
+  </div>
+
+  <div id="spinnerBox" class="box">
+
+    <h2>Loading</h2>
+    <img src = './img/ajax-loader.gif'>
+    </div>
+
+
+  </div>
+        
+  <!--<div id = "blurbBox" class = "box">-->
+  <!--   <p>This pulls the last 7 days of 311 graffit reports for the current map view from SF311 using the SODA API.</p>-->
+  <!--   <p>Click on a marker to view details of the 311 complaint</p>-->
+  <!--   <a href = "https://github.com/chriswhong/sodaWithinBox">Based on Code on Github</a></p>-->
+  <!--</div>-->
+  <div id="getData">
+    <a href="ttps://data.sfgov.org/City-Infrastructure/Homeless_Concerns_Source-311app/jr8h-g9z9"><img src="https://raw.githubusercontent.com/betanyc/getDataButton/master/png/110x32.png"></a>
+
+  </div>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>  
+  <script src="js/script.js"></script> 
+</body>
+</html>
